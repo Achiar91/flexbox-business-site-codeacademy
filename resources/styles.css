@@ -81,7 +81,9 @@ html {
     font-size:3rem;
 }
 .team-container{
-    background-color:black;
+    background-image:url("https://staticr1.blastingcdn.com/media/photogallery/2020/2/14/os/b_1200x675/call-of-duty-modern-warfare-has-another-game-breaking-bug-image-credit-in-game-screenshot_2401005.jpg"), url("https://pbs.twimg.com/media/D74I25NX4AAXdzX.jpg"), url("https://i.gadgets360cdn.com/large/cod_gunfight_body_1562930063671.jpg");
+    background-position: top, center , bottom; 
+  background-repeat: no-repeat, no-repeat, no-repeat;
     margin-top:5rem;
     display: inline-flex;
     flex-wrap: wrap;
@@ -93,6 +95,8 @@ html {
     flex-direction: row;
 }
 .cod-stats img{
+    opacity:0.8;
+    padding-left: 2rem;
     height: 20rem;
     width: 15rem;
 }
@@ -104,4 +108,25 @@ html {
     box-sizing: border-box;
     justify-content:space-around;
     flex-basis: 50%;
+}
+.cod-stats h3 {
+    text-align:center;
+    color:red;
+    font-family:"Oswald", sans-serif;
+    font-size:1rem;
+}
+.game{
+  height:50;
+  width:70%;
+  margin-left:9rem;
+  margin-right:9rem;
+  background-color: black;
+  height: 25rem;
+  text-align:center;
+}
+.game h1{
+    color:white;
+    font-size: 2rem;
+    font-family:"Oswald", sans-serif;
+    text-align:center;
 }
